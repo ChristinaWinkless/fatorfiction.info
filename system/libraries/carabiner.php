@@ -1019,6 +1019,7 @@ class Carabiner {
 	*/		
 	public function empty_cache($flag = 'both', $before = 'now')
 	{
+		date_default_timezone_set('Europe/London');
 
 		$this->CI->load->helper('file');
 		
