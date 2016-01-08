@@ -31,9 +31,9 @@
 
     <canvas id="canvas-infographics" width="704" height="343" data-ipad-portrait-width="480" data-ipad-portrait-height="234"></canvas>  
 
-    <? foreach ($sweetData->sweets as $sweets => $data) { ?>
+    <?php foreach ($sweetData->sweets as $sweets => $data) { ?>
     <div class="sweet <?=$data->slug?>" data-slug="<?=$data->slug?>" data-animated="<?=$data->animated?>" data-steps="<?=$data->steps?>" data-current-step="0" data-landscape-top="" data-landscape-left="" data-portrait-top="" data-portrait-left="" data-landscape-width="" data-landscape-height="" data-portrait-width="" data-portrait-height="" style="background-image: url(<?=$data->image?>);"></div>
     <div class="sweet-name <?=$data->slug?> is-hidden" data-slug="<?=$data->slug?>"><?=$data->name?></div>
-    <? } ?>   
+    <?php } ?>
 
 </section><!-- Infographics End -->

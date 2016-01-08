@@ -31,8 +31,8 @@
 
     <canvas id="canvas-infographics" width="734" height="264" data-ipad-portrait-width="550" data-ipad-portrait-height="198"></canvas>
 
-    <? foreach ($chocolateData->chocolate_bars as $chocolateBar => $data) { ?>
+    <?php foreach ($chocolateData->chocolate_bars as $chocolateBar => $data) { ?>
     <div class="cross-section <?=$data->slug?> is-hidden" data-slug="<?=$data->slug?>" data-landscape-top="" data-landscape-left="" data-portrait-top="" data-portrait-left=""><img src="<?=$data->image?>" width="<?=$data->image_width?>" height="<?=$data->image_height?>" data-landscape-width="" data-landscape-height="" data-portrait-width="" data-portrait-height="" alt="<?=$data->name?>"></div>
-    <? } ?>     
+    <?php } ?>
 
 </section><!-- Infographics End -->

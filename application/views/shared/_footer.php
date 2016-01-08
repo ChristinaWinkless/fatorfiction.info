@@ -12,7 +12,7 @@
 
 <?php $this->load->view('partials/_tracking'); ?>
 
-<? $this->carabiner->display('js') ?>
+<?php $this->carabiner->display('js') ?>
 
 </body>
 </html>

@@ -38,9 +38,9 @@
 
     <canvas id="canvas-infographics" width="780" height="303" data-ipad-portrait-width="600" data-ipad-portrait-height="233"></canvas>
 
-    <? foreach ($alcoholData->drinks as $drinks => $data) { ?>
+    <?php foreach ($alcoholData->drinks as $drinks => $data) { ?>
     <div class="drink-name <?=$data->slug?> is-hidden" data-slug="<?=$data->slug?>"><?=$data->name?></div>
-    <? } ?> 
+    <?php } ?>
 
 </section><!-- Infographics End -->
 

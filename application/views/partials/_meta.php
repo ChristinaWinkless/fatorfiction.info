@@ -8,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <? $this->carabiner->display('css') ?>
+    <?php $this->carabiner->display('css') ?>
 
     <script src="<?=base_url()?>assets/js/libs/modernizr-2.5.3.min.js"></script>
     

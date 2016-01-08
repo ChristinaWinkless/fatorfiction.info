@@ -32,8 +32,8 @@
     <canvas id="canvas-infographics" width="828" height="448" data-ipad-portrait-width="600" data-ipad-portrait-height="325"></canvas>
     <nav class="crisps" style="background: url('<?=$crispsData->navigation_image?>') no-repeat;"></nav>
 
-    <? foreach ($crispsData->crisps as $crisps => $data) { ?>
+    <?php foreach ($crispsData->crisps as $crisps => $data) { ?>
     <div class="rollover-image <?=$data->slug?> is-hidden" data-slug="<?=$data->slug?>" data-landscape-top="" data-landscape-left="" data-portrait-top="" data-portrait-left=""><img src="<?=$data->image_rollover?>" width="<?=$data->image_width?>" height="<?=$data->image_height?>" data-landscape-width="" data-landscape-height="" data-portrait-width="" data-portrait-height="" alt="<?=$data->name?>"></div>
-    <? } ?>   
+    <?php } ?>
 
 </section><!-- Infographics End -->
