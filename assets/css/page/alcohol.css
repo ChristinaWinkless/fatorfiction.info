@@ -1,0 +1,15 @@
+/* 
+    Document   : alcohol.less
+    Author     : David
+    Description:
+        Define styles for the Alcohol infographics here.
+*/
+/* =Alcohol
+-------------------------------------------------------------- */
+/* =Alcohol Mixins
+-------------------------------------------------------------- */
+/* =Food Information
+-------------------------------------------------------------- */
+div#container div.food-information.alcohol hr {
+  background-position: 0 -10px;
+}

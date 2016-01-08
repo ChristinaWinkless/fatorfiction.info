@@ -1,0 +1,35 @@
+/* 
+    Document   : ios-cake.less
+    Author     : David
+    Description:
+        Define ios styles for the Cake infographics here.
+        Cake uses the pieChart template.
+*/
+/* =Cake
+-------------------------------------------------------------- */
+/* =Cake Mixins
+-------------------------------------------------------------- */
+/* =Food Information
+-------------------------------------------------------------- */
+/* =Infographics Cake
+-------------------------------------------------------------- */
+@media (orientation: landscape) {
+  div#container section.infographics.pie-chart.cake div.percent.cake.cheesecake {
+    top: 103px !important;
+    left: 235px !important;
+  }
+  div#container section.infographics.pie-chart.cake div.percent.cake.coffee-cake {
+    top: 32px !important;
+    left: 411px !important;
+  }
+}
+@media (orientation: portrait) {
+  div#container section.infographics.pie-chart.cake div.percent.cake.cheesecake {
+    top: 70px !important;
+    left: 178px !important;
+  }
+  div#container section.infographics.pie-chart.cake div.percent.cake.coffee-cake {
+    top: 12px !important;
+    left: 328px !important;
+  }
+}

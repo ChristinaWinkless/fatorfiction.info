@@ -1,0 +1,24 @@
+/* 
+    Document   : ios-chocolate.less
+    Author     : David
+    Description:
+        Define styles for the ios Chocolate infographics here.
+*/
+/* =Chocolate
+-------------------------------------------------------------- */
+/* =Chocolate Mixins
+-------------------------------------------------------------- */
+/* =Food Information
+-------------------------------------------------------------- */
+/* =Infographics Chocolate
+-------------------------------------------------------------- */
+div#container section.infographics.chocolate {
+  background-size: 100%;
+}
+@media (orientation: portrait) {
+  div#container section.infographics.chocolate {
+    margin: -99px 0 0 -275px;
+    width: 550px;
+    height: 198px;
+  }
+}

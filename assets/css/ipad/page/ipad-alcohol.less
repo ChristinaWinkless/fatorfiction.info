@@ -1,0 +1,142 @@
+/* 
+    Document   : ipad-alcohol.less
+    Author     : David
+    Description:
+        Define styles for the iPad Alcohol infographics here.
+*/
+
+/* =Alcohol
+-------------------------------------------------------------- */
+
+/* =Alcohol Mixins
+-------------------------------------------------------------- */
+
+/* =Food Information
+-------------------------------------------------------------- */
+div#container{
+
+    div.food-information.alcohol{
+
+    }
+}
+
+/* =Infographics Alcohol
+-------------------------------------------------------------- */
+div#container{
+
+    section.infographics.alcohol.view-all{
+
+       background-size: 100%;
+
+        // Drink name
+        div.drink-name{
+
+            display: block !important;
+        }
+    }
+
+    section.infographics.alcohol.view-single{
+    
+        a.arrow{
+
+            &.left{
+
+                &:hover{
+                    background-position: 0 0;
+                }
+            }
+
+            &.right{
+
+                &:hover{
+                    background-position: -40px 0;
+                }
+            }
+        }
+    }
+}
+
+@media
+(orientation : portrait) {
+    div#container{
+
+        section.infographics.alcohol.view-all{
+                
+            @width: 600px;
+            @height: 233px;
+
+            margin: -@height/2px 0 0 -@width/2px;
+            width: @width;
+            height: @height;
+
+            // Drink name
+            div.drink-name{
+
+                @topY: -52px;
+                @bottomY: 236px;
+
+                font-size: 30px;
+
+                &.lager{
+
+                    top: @topY;
+                    left: 34px;
+                }
+
+                &.cider{
+
+                    top: @topY;
+                    left: 157px;
+                }
+
+                &.guinness{
+
+                    top: @topY;
+                    left: 270px;
+                }
+
+                &.vodka-and-cranberry{
+
+                    top: @topY;
+                    left: 357px;
+                }
+
+                &.white-wine{
+
+                    top: @topY;
+                    left: 508px;
+                }
+
+                &.jagermeister{
+
+                    top: @bottomY;
+                    left: 12px;
+                }
+
+                &.gin-and-tonic{
+
+                    top: @bottomY;
+                    left: 138px;
+                }
+
+                &.red-wine{
+
+                    top: @bottomY;
+                    left: 268px;
+                }
+
+                &.rum-and-coke{
+
+                    top: @bottomY;
+                    left: 383px;
+                }
+
+                &.wkd-blue{
+
+                    top: @bottomY;
+                    left: 514px;
+                }
+            }
+        }
+    }
+} 

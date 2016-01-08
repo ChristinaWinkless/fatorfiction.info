@@ -1,0 +1,188 @@
+/* 
+    Document   : sweets.less
+    Author     : David
+    Description:
+        Define styles for the Sweets infographics here.
+*/
+
+/* =Sweets
+-------------------------------------------------------------- */
+
+/* =Sweets Mixins
+-------------------------------------------------------------- */
+
+/* =Food Information
+-------------------------------------------------------------- */
+div#container{
+
+    div.food-information.sweets{
+
+        hr{
+
+            background-image: url(/assets/images/pages/sweets/all/hr.png);
+        }
+
+        div{
+
+        }
+    }
+}
+
+/* =Infographics Sweets
+-------------------------------------------------------------- */
+div#container{
+
+    section.infographics.sweets{
+
+        @width: 704px;
+        @height: 343px;
+
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin: -@height/2px 0 0 -@width/2px;
+        width: @width;
+        height: @height;
+
+        // Canvas
+        canvas#canvas-infographics{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+
+        // Sweet spritesheets
+        div.sweet{
+
+            background-repeat: no-repeat;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 120px;
+            height: 120px;
+            z-index: 9;
+
+            &.milk-bottles{
+                top: 94px;
+                left: -2px;
+            }
+
+            &.fruit-gums{
+                top: 144px;
+                left: 61px;
+            }
+
+            &.wine-gums{
+                top: 98px;
+                left: 119px;
+            }
+
+            &.tooty-frooties{
+                top: 194px;
+                left: 176px;
+            }
+
+            &.flying-saucers{
+                top: 88px;
+                left: 230px;
+            }
+
+            &.love-hearts{
+                top: -9px;
+                left: 292px;
+            }
+
+            &.shrimps{
+                top: -20px;
+                left: 346px;
+            }
+
+            &.haribo-starmix{
+                top: 77px;
+                left: 406px;
+            }
+
+            &.liquorice-allsorts{
+                top: 78px;
+                left: 462px;
+            }
+
+            &.fruit-pastels{
+                top: 97px;
+                left: 518px;
+            }
+
+            &.jelly-babies{
+                top: 29px;
+                left: 574px;
+            }
+        }
+
+        // Sweet name
+        div.sweet-name{
+
+            font-family: @FuturaMediumCondensedFont;
+            font-size: 14px;
+            position: absolute;
+            text-transform: uppercase;
+            top: 322px;
+            left: 0;
+
+            &.milk-bottles{
+                color: #e9d9c7;
+                left: 30px;
+            }
+
+            &.fruit-gums{
+                color: #fbb114;
+                left: 94px;
+            }
+
+            &.wine-gums{
+                color: #b52a3f;
+                left: 155px;
+            }
+
+            &.tooty-frooties{
+                color: #f65c22;
+                left: 198px;
+            }
+
+            &.flying-saucers{
+                color: #e9c4cf;
+                left: 255px;
+            }
+
+            &.love-hearts{
+                color: #d2dac5;
+                left: 330px;
+            }
+
+            &.shrimps{
+                color: #e8cddc;
+                left: 392px;
+            }
+
+            &.haribo-starmix{
+                color: #df4459;
+                left: 424px;
+            }
+
+            &.liquorice-allsorts{
+                color: #2b2b2c;
+                left: 475px;
+            }
+
+            &.fruit-pastels{
+                color: #728861;
+                left: 546px;
+            }
+
+            &.jelly-babies{
+               color: #46494c;
+               left: 608px;
+            }
+        }
+    }
+}

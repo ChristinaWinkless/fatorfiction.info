@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+    <all image="/assets/images/pages/chocolate/all/chocolate-bars.jpg"></all>
+    <bars>
+        <bar name="Boost">
+            <image url="/assets/images/pages/chocolate/boost/cross-section.png" width="76" height="58"></image>
+            <information>
+                <name line1="" line2="Boost"></name>
+                <fat>17.2</fat>
+                <calories>305</calories>
+                <carbs>34.5</carbs>
+                <protein>3.5</protein>
+            </information>
+        </bar>
+        <bar name="Kit Kat Chunky">
+            <image url="/assets/images/pages/chocolate/kit-kat-chunky/cross-section.png" width="85" height="53"></image>
+            <information>
+                <name line1="Kit Kat" line2="Chunky"></name>
+                <fat>13</fat>
+                <calories>248</calories>
+                <carbs>30</carbs>
+                <protein>3</protein>
+            </information>
+        </bar>;
+        <bar name="Toffee Crisp">
+            <image url="/assets/images/pages/chocolate/toffee-crisp/cross-section.png" width="84" height="50"></image>
+            <information>
+                <name line1="Toffee" line2="Crisp"></name>
+                <fat>12.2</fat>
+                <calories>229</calories>
+                <carbs>27.7</carbs>
+                <protein>1.6</protein>
+            </information>
+        </bar>
+        <bar name="Twix">
+            <image url="/assets/images/pages/chocolate/twix/cross-section.png" width="99" height="46"></image>
+            <information>
+                <name line1="" line2="Twix"></name>
+                <fat>12</fat>
+                <calories>250</calories>
+                <carbs>33</carbs>
+                <protein>2</protein>
+            </information>
+        </bar>
+        <bar name="Lion Bar">
+            <image url="/assets/images/pages/chocolate/lion-bar/cross-section.png" width="97" height="66"></image>
+            <information>
+                <name line1="" line2="Lion Bar"></name>
+                <fat>11.9</fat>
+                <calories>256</calories>
+                <carbs>34.1</carbs>
+                <protein>3</protein>
+            </information>
+        </bar>
+        <bar name="Bourneville">
+            <image url="/assets/images/pages/chocolate/bourneville/cross-section.png" width="86" height="45"></image>
+            <information>
+                <name line1="" line2="Bourneville"></name>
+                <fat>11.5</fat>
+                <calories>220</calories>
+                <carbs>27.5</carbs>
+                <protein>1.8</protein>
+            </information>
+        </bar>
+        <bar name="Crunchie">
+            <image url="/assets/images/pages/chocolate/crunchie/cross-section.png" width="68" height="45"></image>
+            <information>
+                <name line1="" line2="Crunchie"></name>
+                <fat>8</fat>
+                <calories>185</calories>
+                <carbs>33</carbs>
+                <protein>2</protein>
+            </information>
+        </bar>
+        <bar name="Flake">
+            <image url="/assets/images/pages/chocolate/flake/cross-section.png" width="56" height="47"></image>
+            <information>
+                <name line1="" line2="Flake"></name>
+                <fat>8</fat>
+                <calories>135</calories>
+                <carbs>14</carbs>
+                <protein>2</protein>
+            </information>
+        </bar>
+        <bar name="Curly Wurly">
+            <image url="/assets/images/pages/chocolate/curly-wurly/cross-section.png" width="70" height="23"></image>
+            <information>
+                <name line1="Curly" line2="Wurly"></name>
+                <fat>4.5</fat>
+                <calories>115</calories>
+                <carbs>18</carbs>
+                <protein>0.9</protein>
+            </information>
+        </bar>
+        <bar name="Fudge">
+            <image url="/assets/images/pages/chocolate/fudge/cross-section.png" width="52" height="31"></image>
+            <information>
+                <name line1="" line2="Fudge"></name>
+                <fat>4</fat>
+                <calories>115</calories>
+                <carbs>19</carbs>
+                <protein>1</protein>
+            </information>
+        </bar>
+    </bars>
+</data>

@@ -1,0 +1,57 @@
+/* 
+    Document   : site.less
+    Author     : David
+    Description:
+        Include site stylesheets.
+*/
+
+/* =Include Reset
+-------------------------------------------------------------- */
+@import "/assets/css/core/normalise.css";
+
+/* =Include Fonts
+-------------------------------------------------------------- */
+@import "core/fonts.less";
+
+/* =Include UI Components
+-------------------------------------------------------------- */
+@import "core/ui-components.less";
+
+/* =Include core
+-------------------------------------------------------------- */
+@import "core/global.less";
+
+/* =Include Error pages
+-------------------------------------------------------------- */
+@import "core/error/error.less";
+
+/* =Include Charts
+-------------------------------------------------------------- */
+@import "page/charts/pie-chart.less";
+
+
+/* =Include page
+-------------------------------------------------------------- */
+@import "page/about.less";
+@import "page/cake.less";
+@import "page/alcohol.less";
+@import "page/crisps.less";
+@import "page/chocolate.less";
+@import "page/cheese.less";
+@import "page/sweets.less";
+
+/* =Include iPad
+-------------------------------------------------------------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+@import "ipad/ipad-site.less";
+}
+
+/* =Include Mobile
+-------------------------------------------------------------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+@import "mobile/mobile-site.less";
+}

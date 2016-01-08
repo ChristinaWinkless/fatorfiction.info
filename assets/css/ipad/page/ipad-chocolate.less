@@ -1,0 +1,47 @@
+/* 
+    Document   : ipad-chocolate.less
+    Author     : David
+    Description:
+        Define styles for the iPad Chocolate infographics here.
+*/
+
+/* =Chocolate
+-------------------------------------------------------------- */
+
+/* =Chocolate Mixins
+-------------------------------------------------------------- */
+
+/* =Food Information
+-------------------------------------------------------------- */
+div#container{
+
+    div.food-information.chocolate{
+
+    }
+}
+
+/* =Infographics Chocolate
+-------------------------------------------------------------- */
+div#container{
+
+    section.infographics.chocolate{
+
+        background-size: 100%;
+    }
+}
+
+@media
+(orientation : portrait) {
+    div#container{
+
+        section.infographics.chocolate{
+
+            @width: 550px;
+            @height: 198px;
+
+            margin: -@height/2px 0 0 -@width/2px;
+            width: @width;
+            height: @height;
+        }
+    }
+}

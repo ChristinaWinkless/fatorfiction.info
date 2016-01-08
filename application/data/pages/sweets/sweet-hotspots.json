@@ -1,0 +1,68 @@
+{
+  "milk-bottles":{
+    "x": 41,
+    "y": 124,
+    "width": 49,
+    "height": 63
+  },
+  "fruit-gums":{
+    "x": 94,
+    "y": 178,
+    "width": 51,
+    "height": 50
+  },
+  "wine-gums":{
+    "x": 148,
+    "y": 130,
+    "width": 58,
+    "height": 60
+  },
+  "tooty-frooties":{
+    "x": 208,
+    "y": 230,
+    "width": 51,
+    "height": 45
+  },
+  "flying-saucers":{
+    "x": 250,
+    "y": 111,
+    "width": 81,
+    "height": 81
+  },
+  "love-hearts":{
+    "x": 328,
+    "y": 27,
+    "width": 50,
+    "height": 50
+  },
+  "shrimps":{
+    "x": 379,
+    "y": 0,
+    "width": 65,
+    "height": 80
+  },
+  "haribo-starmix":{
+    "x": 432,
+    "y": 107,
+    "width": 60,
+    "height": 60
+  },
+  "liquorice-allsorts":{
+    "x": 495,
+    "y": 110,
+    "width": 55,
+    "height": 60
+  },
+  "fruit-pastels":{
+    "x": 554,
+    "y": 133,
+    "width": 50,
+    "height": 50
+  },
+  "jelly-babies":{
+    "x": 610,
+    "y": 52,
+    "width": 55,
+    "height": 70
+  }
+}

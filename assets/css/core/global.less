@@ -1,0 +1,497 @@
+/* 
+    Document   : global.less
+    Author     : David
+    Description:
+        Define global styles here.
+*/
+
+
+/* =Global Constants
+-------------------------------------------------------------- */
+
+// Body
+@bodyFontColor: #000;
+@bodyFontSize: 12px;
+
+// Header tags
+@h2LetterSpacing: 1px;
+
+// Hover
+@hoverColor: #000;
+@activeColor: @hoverColor;
+
+
+/* =Global Mixins
+-------------------------------------------------------------- */
+
+
+
+/* =Global styles
+-------------------------------------------------------------- */  
+body{
+    background-color: #f9f9fb;
+    color: @bodyFontColor;
+    font-family: @defaultFonts;
+    font-size: @bodyFontSize;
+    overflow: hidden;
+    width: 100%;
+}
+
+html{
+}
+
+h1{
+    font-size: 28px;
+    font-weight: normal;
+}
+
+h2{
+    font-family: @strangeLoveFont;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+h3{
+    
+}
+
+h4{
+    
+}
+
+h5{
+    
+}
+
+a{
+
+    text-decoration: none;
+
+    &:hover{
+        color: @hoverColor;
+        text-decoration: underline;
+    }
+
+    &:visited{
+        color: @bodyFontColor;
+    }
+
+    &.active{
+        color: @activeColor;
+    }
+}
+
+p{
+    font-size: @bodyFontSize; 
+}
+
+strong,
+b{
+    
+}
+
+hr{
+}
+
+ul,
+ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.is-hidden{
+    display: none;
+}
+
+
+/* =Header Primary
+-------------------------------------------------------------- */
+header.primary{
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+
+    h1{
+        margin: 0;
+    }
+}
+
+/* =Navigation Primary
+-------------------------------------------------------------- */
+nav.primary{
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+
+    ul{
+
+        @backgroundImage: '/assets/images/global/navigation-spritesheet.png';
+
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        
+        li{
+            margin-bottom: 8px;
+
+            a{
+                background: url(@backgroundImage) no-repeat;
+                display: block;
+                text-indent: -99999px;
+                width: 42px;
+                height: 42px;
+
+               &.cake{
+                    background-position: 0 0;
+                    
+                    &.active,
+                    &:hover{
+                        background-position: -42px 0;
+                    }
+               }
+
+               &.alcohol{
+
+                    background-position: 0 -42px;
+
+                    &.active,
+                    &:hover{
+                        background-position: -42px -42px;
+                    }
+               }
+
+               &.chocolate{
+
+                    background-position: 0 -84px;
+
+                    &.active,
+                    &:hover{
+                        background-position: -42px -84px;
+                    }
+               }
+
+               &.crisps{
+
+                    background-position: 0 -126px;
+
+                    &.active,
+                    &:hover{
+                        background-position: -42px -126px;
+                    }
+               }
+
+               &.cheese{
+
+                    background-position: 0 -168px;
+
+                    &.active,
+                    &:hover{
+                        background-position: -42px -168px;
+                    }
+               }
+
+               &.sweets{
+
+                    background-position: 0 -210px;
+
+                    &.active,
+                    &:hover{
+                        background-position: -42px -210px;
+                    }
+               } 
+            }
+        }
+    }
+}
+
+/* =Container
+-------------------------------------------------------------- */
+
+
+/* =Footer
+-------------------------------------------------------------- */
+footer{
+
+    font-family: @strangeLoveFont;
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+
+    &.social{
+
+        left: 20px;
+
+        ul{
+            li{
+                letter-spacing: @h2LetterSpacing;
+                line-height: 26px;
+
+                a{
+                    color: #858585;
+
+                    &:hover{
+                        color: #333333;
+                    }
+                }
+            }
+        }
+    }
+
+    &.anna-christina-david{
+
+        right: 20px;
+
+        ul{
+            li{
+                a{
+
+                    @hoverY: -21px;
+
+                    background: url(/assets/images/global/anna-christina-david-logo-spritesheet.png) 0 0 no-repeat;
+                    display: block;
+                    float: left;
+                    height: 21px;
+
+                    &:hover{
+                        background-position: 0 @hoverY;
+                    }
+
+                    &.anna{
+
+                        width: 33px;
+                    }
+
+                    &.christina{
+
+                        background-position: -31px 0;
+                        width: 23px;
+
+                        &:hover{
+                            background-position: -31px @hoverY;
+                        }
+                    }
+
+                    &.david{
+
+                        background-position: -56px 0;
+                        width: 27px;
+
+                        &:hover{
+                            background-position: -56px @hoverY;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/* =Food Information
+-------------------------------------------------------------- */
+div#container{
+
+    div.food-information{
+
+        margin: 160px 0 0 20px;
+        width: 115px;
+        z-index: 4;
+
+        h2{
+            line-height: 30px;
+            margin: 0;
+            height: 60px;
+            position: relative;
+
+            span{
+                display: block;
+                position: absolute;
+                bottom: 0;
+
+                &.line-1{
+                    bottom: 29px;
+                }
+            }
+        }
+
+        hr{
+            background-repeat: repeat-x;
+            border: none;
+            height: 3px;
+            margin: 20px 0 6px 0;
+
+            &.bottom{
+                margin-bottom: 8px;
+            }
+           
+        }
+
+        img.slice{
+            margin: 0 0 5px -20px;
+        }
+
+        div{
+            color: #333333;
+            display: block;
+            font-family: @strangeLoveFont;
+            font-size: 30px;
+            letter-spacing: @h2LetterSpacing;
+            line-height: 24px;
+
+            // First amount font size
+            &.first{
+                font-size: 40px;
+                line-height: 32px;
+
+                span.grams{
+                    font-size: 30px;
+                }
+            }
+
+            span{
+                
+                &.grams{
+                    font-size: 20px;
+                    line-height: 10px;
+                }
+            }
+
+            &.weight{
+                color: #999999;
+                font-family: @FuturaMediumCondensedFont;
+                font-size: 10px;
+                text-transform: uppercase;
+            }
+
+            &.legend{
+                color: #999999;
+                font-family: @FuturaMediumCondensedFont;
+                font-size: 10px;
+                line-height: 12px;
+            }
+        }
+
+    }
+}
+
+/* =Infographics 
+-------------------------------------------------------------- */
+div#container{
+
+    // Container for center infographics
+    section.infographics{
+
+        overflow: hidden;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 1;
+
+        // Percentages for rollovers
+        div.percent{
+            font-family: @strangeLoveFont;
+            font-size: 48px;
+            position: absolute;
+            z-index: 100;
+        }
+
+        // Introduction
+        div.introduction{
+
+            background-repeat: no-repeat;
+            background-position: center center;
+            color: #fff;
+            left: 50%;
+            margin: 188px 0 0 -150px;
+            position: absolute;
+            width: 300px;
+
+            h1{
+                margin: 0;
+            }
+
+            h2, 
+            h3{
+                font-family: @FrutigerLTFont;
+                font-size: 18px;
+                font-weight: normal;
+                margin-left: 9.5px;
+                line-height: 22px;
+                width: 280px;
+            }
+
+            h2{
+                margin-top: 29px;
+                margin-bottom: 0;
+                line-height: 19px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+
+            h3{
+                line-height: 18px;
+                margin-top: 17px;
+                margin-bottom: 0;
+            }
+        }
+
+
+        // Anna, Christina, David logo
+        ul.anna-christina-david{
+
+            margin: 29px 0 0 91px;
+            height: 30px;
+
+            li{
+
+                float: left;
+
+                a{
+                    @hoverY: -29px;
+
+                    background: url(/assets/images/global/anna-christina-david-logo-large-spritesheet.png) 0 0 no-repeat;
+                    display: block;
+                    float: left;
+                    height: 29px;
+
+                    &:hover{
+
+                        background-position: 0 @hoverY;
+                    }
+
+                    &.anna{
+
+                        width: 49px;
+                    }
+
+                    &.christina{
+
+                        background-position: -49px 0;
+                        width: 31px;
+
+                        &:hover{
+                            background-position: -49px @hoverY;
+                        }
+                    }
+
+                    &.david{
+
+                        background-position: -80px 0;
+                        width: 37px;
+
+                        &:hover{
+                            background-position: -80px @hoverY;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

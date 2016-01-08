@@ -1,0 +1,30 @@
+/* 
+    Document   : ios-alcohol.less
+    Author     : David
+    Description:
+        Define styles for the ios Alcohol infographics here.
+*/
+/* =Alcohol
+-------------------------------------------------------------- */
+/* =Alcohol Mixins
+-------------------------------------------------------------- */
+/* =Food Information
+-------------------------------------------------------------- */
+/* =Infographics Alcohol
+-------------------------------------------------------------- */
+div#container section.infographics.alcohol.view-all {
+  background-size: 100%;
+}
+div#container section.infographics.alcohol.view-single a.arrow.left:hover {
+  background-position: 0 0;
+}
+div#container section.infographics.alcohol.view-single a.arrow.right:hover {
+  background-position: -40px 0;
+}
+@media (orientation: portrait) {
+  div#container section.infographics.alcohol.view-all {
+    margin: -116.5px 0 0 -300px;
+    width: 600px;
+    height: 233px;
+  }
+}

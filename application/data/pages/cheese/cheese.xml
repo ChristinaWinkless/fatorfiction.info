@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+    <chart type="cheese" image="/assets/images/pages/cheese/all/cheese.png" radius="332" slice="false"></chart>
+    <segments>
+         <segment name="Feta">
+            <information>
+                <name line1="" line2="Feta"></name>
+                <slice url="/assets/images/pages/cheese/feta/slice.jpg"></slice>
+                <fat>21</fat>
+                <calories>264</calories>
+                <carbs>4</carbs>
+                <protein>14</protein>
+                <percent>8</percent>
+            </information>
+        </segment>
+        <segment name="Brie">
+            <information>
+                <name line1="" line2="Brie"></name>
+                <slice url="/assets/images/pages/cheese/brie/slice.jpg"></slice>
+                <fat>28</fat>
+                <calories>334</calories>
+                <carbs>0</carbs>
+                <protein>21</protein>
+                <percent>11</percent>
+            </information>
+        </segment>
+        <segment name="Mature Cheddar">
+            <information>
+                <name line1="Mature" line2="Cheddar"></name>
+                <slice url="/assets/images/pages/cheese/mature-cheddar/slice.jpg"></slice>
+                <fat>34.9</fat>
+                <calories>416</calories>
+                <carbs>0.1</carbs>
+                <protein>25.4</protein>
+                <percent>14</percent>
+            </information>
+        </segment>
+        <segment name="Cream Cheese">
+            <information>
+                <name line1="Cream" line2="Cheese"></name>
+                <slice url="/assets/images/pages/cheese/cream-cheese/slice.jpg"></slice>
+                <fat>35</fat>
+                <calories>349</calories>
+                <carbs>3</carbs>
+                <protein>8</protein>
+                <percent>14</percent>
+            </information>
+        </segment>
+        <segment name="Swiss Cheese">
+            <information>
+                <name line1="Swiss" line2="Cheese"></name>
+                <slice url="/assets/images/pages/cheese/swiss-cheese/slice.jpg"></slice>
+                <fat>28</fat>
+                <calories>380</calories>
+                <carbs>5</carbs>
+                <protein>27</protein>
+                <percent>11</percent>
+            </information>
+        </segment>
+        <segment name="Goats Cheese">
+            <information>
+                <name line1="Goats" line2="Cheese"></name>
+                <slice url="/assets/images/pages/cheese/goats-cheese/slice.jpg"></slice>
+                <fat>21</fat>
+                <calories>268</calories>
+                <carbs>1</carbs>
+                <protein>19</protein>
+                <percent>10</percent>
+            </information>
+        </segment>
+        <segment name="Mozzarella">
+            <information>
+                <name line1="" line2="Mozzarella"></name>
+                <slice url="/assets/images/pages/cheese/mozzarella/slice.jpg"></slice>
+                <fat>17.5</fat>
+                <calories>245</calories>
+                <carbs>0</carbs>
+                <protein>21</protein>
+                <percent>7</percent>
+            </information>
+        </segment>
+        <segment name="Blue Stilton">
+            <information>
+                <name line1="Blue" line2="Stilton"></name>
+                <slice url="/assets/images/pages/cheese/blue-stilton/slice.jpg"></slice>
+                <fat>35</fat>
+                <calories>410</calories>
+                <carbs>0.1</carbs>
+                <protein>23.7</protein>
+                <percent>14</percent>
+            </information>
+        </segment>
+        <segment name="Cottage Cheese">
+            <information>
+                <name line1="Cottage" line2="Cheese"></name>
+                <slice url="/assets/images/pages/cheese/cottage-cheese/slice.jpg"></slice>
+                <fat>2</fat>
+                <calories>71</calories>
+                <carbs>5</carbs>
+                <protein>10</protein>
+                <percent>1</percent>
+            </information>
+        </segment>
+        <segment name="Parmesan">
+            <information>
+                <name line1="" line2="Parmesan"></name>
+                <slice url="/assets/images/pages/cheese/parmesan/slice.jpg"></slice>
+                <fat>26</fat>
+                <calories>392</calories>
+                <carbs>3</carbs>
+                <protein>36</protein>
+                <percent>11</percent>
+            </information>
+        </segment>
+    </segments>
+</data>

@@ -1,0 +1,57 @@
+/* 
+    Document   : pie-chart.less
+    Author     : David
+    Description:
+        Define styles for the Pie Chart template here.
+*/
+
+/* =Pie Chart
+-------------------------------------------------------------- */
+
+/* =Pie Chart Mixins
+-------------------------------------------------------------- */
+.mix-percent-size(@width: 100px, @height: 100px){
+    width: @width;
+    height: @height;
+}
+
+
+/* =Food Information
+-------------------------------------------------------------- */
+div#container{
+
+    div.food-information.cake{
+
+        div{
+
+            &.fat{
+            }
+
+            &.calories,
+            &.carbs,
+            &.protein{
+                
+            }
+        }
+    }
+}
+
+/* =Infographics Cake
+-------------------------------------------------------------- */
+div#container{
+
+    section.infographics.pie-chart{
+
+        @width: 960px;
+        @height: 719px;
+        
+        margin: -@height/2px 0 0 -@width/2px;
+        width: @width;
+        height: @height;
+
+        // Canvas
+         canvas#canvas-infographics{
+            position: relative;
+        }
+    }
+}

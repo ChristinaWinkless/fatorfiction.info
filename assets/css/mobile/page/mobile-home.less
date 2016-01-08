@@ -1,0 +1,87 @@
+/* 
+    Document   : ios-mobile.less
+    Author     : David
+    Description:
+        Define styles for the mobile home page here.
+*/
+
+/* =Home
+-------------------------------------------------------------- */
+
+/* =Home Mixins
+-------------------------------------------------------------- */
+
+/* =Home Portrait
+-------------------------------------------------------------- */
+div#container{
+
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+
+    h1{
+
+        a{
+
+            background: url(/assets/images/global/mobile/fat-or-fiction-logo.jpg) no-repeat;
+            background-size: 100%;
+            display: block;
+        }
+    }
+
+    h3{
+
+        font-family: @FrutigerLTFont;
+        font-size: 17px;
+        line-height: 20px;
+
+        span.bold{
+            
+            font-family: @FrutigerLTBoldFont;
+        }
+    }
+}
+
+@media
+(orientation : portrait) {
+    div#container{
+
+        @width: 234px;
+
+        width: @width;
+
+        h1{
+
+            width: 234px;
+            height: 233px;
+
+            a{
+
+                width: 234px;
+                height: 233px;
+            }
+        }
+    }
+}
+
+@media
+(orientation : landscape) {
+    div#container{
+
+        @width: 182px;
+
+        width: @width;
+
+        h1{
+
+            width: @width;
+            height: 183px;
+
+            a{
+
+                width: @width;
+                height: 183px;
+            }
+        }
+    }
+}

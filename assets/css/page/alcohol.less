@@ -1,0 +1,193 @@
+/* 
+    Document   : alcohol.less
+    Author     : David
+    Description:
+        Define styles for the Alcohol infographics here.
+*/
+
+/* =Alcohol
+-------------------------------------------------------------- */
+
+/* =Alcohol Mixins
+-------------------------------------------------------------- */
+
+/* =Food Information
+-------------------------------------------------------------- */
+div#container{
+
+    div.food-information.alcohol{
+
+        hr{
+        
+            background-image: url(/assets/images/pages/alcohol/all/hr.png);
+        }
+
+        div{
+
+            &.first{
+
+                font-size: 30px;
+
+                span{
+
+                    &.amount{
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+
+        a.back{
+            background: url(/assets/images/pages/alcohol/all/back-arrow.png) no-repeat 0 11px;
+            color: #333333;
+            font-family: @strangeLoveFont;
+            font-size: 24px;
+            letter-spacing: 1px;
+            line-height: 14px;
+            padding-left: 10px;
+        }
+    }
+}
+
+/* =Infographics Alcohol
+-------------------------------------------------------------- */
+div#container{
+
+    section.infographics.alcohol.view-all{
+
+        @width: 780px;
+        @height: 303px;
+
+        margin: -@height/2px 0 0 -@width/2px;
+        overflow: visible;
+        width: @width;
+        height: @height;
+
+        // Canvas
+        canvas#canvas-infographics{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+
+        // Drink name
+        div.drink-name{
+
+            @topY: -62px;
+            @bottomY: 304px;
+
+            font-family: @strangeLoveFont;
+            font-size: 38px;
+            letter-spacing: 1px;
+            margin: 0;
+            position: absolute;
+            text-transform: uppercase;
+            top: 0;
+            left: 0;
+
+            &.lager{
+
+                top: @topY;
+                left: 47px;
+            }
+
+            &.cider{
+
+                top: @topY;
+                left: 207px;
+            }
+
+            &.guinness{
+
+                top: @topY;
+                left: 354px;
+            }
+
+            &.vodka-and-cranberry{
+
+                top: @topY;
+                left: 473px;
+            }
+
+            &.white-wine{
+
+                top: @topY;
+                left: 659px;
+            }
+
+            &.jagermeister{
+
+                top: @bottomY;
+                left: 16px;
+            }
+
+            &.gin-and-tonic{
+
+                top: @bottomY;
+                left: 182px;
+            }
+
+            &.red-wine{
+
+                top: @bottomY;
+                left: 352px;
+            }
+
+            &.rum-and-coke{
+
+                top: @bottomY;
+                left: 502px;
+            }
+
+            &.wkd-blue{
+
+                top: @bottomY;
+                left: 670px;
+            }
+        }
+    }
+
+    section.infographics.alcohol.view-single{
+
+        @width: 510px;
+        @height: 420px;
+
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: -@height/2px 0 0 -@width/2px;
+        width: @width;
+        height: @height;
+
+        // Arrows
+        a.arrow{
+
+            background: url(/assets/images/pages/alcohol/all/carousel-arrows-spritesheet.png) no-repeat;
+            display: block;
+            position: absolute;
+            top: @height/2 - 78/2px;
+            width: 40px;
+            height: 78px;
+
+            &.left{
+
+                background-position: 0 0;
+                left: 0;
+
+                &:hover{
+                    background-position: 0 -80px;
+                }
+            }
+
+            &.right{
+
+                background-position: -40px 0;
+                right: 0;
+
+                &:hover{
+                    background-position: -40px -80px;
+                }
+            }
+        }
+    }
+}

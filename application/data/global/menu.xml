@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+    <menu>
+        <item name="Cake" class="cake" url="/cake"></item>
+        <item name="Alcohol" class="alcohol" url="/alcohol"></item>
+        <item name="Chocolate" class="chocolate" url="/chocolate"></item>
+        <item name="Crisps" class="crisps" url="/crisps"></item>
+        <item name="Cheese" class="cheese" url="/cheese"></item>
+        <item name="Sweets" class="sweets" url="/sweets"></item>
+    </menu>
+</data>

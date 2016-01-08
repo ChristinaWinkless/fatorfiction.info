@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+    <all image="/assets/images/pages/alcohol/all/drinks.jpg"></all>
+    <drinks>
+        <drink name="Cider">
+            <image url="/assets/images/pages/alcohol/cider/cider.png"></image>
+            <information>
+                <name line1="" line2="Cider"></name>
+                <units>2.6</units>
+                <fat>0</fat>
+                <calories>239</calories>
+                <carbs>31</carbs>
+                <protein>0</protein>
+                <sugar>12</sugar>
+            </information>
+        </drink>
+        <drink name="Guinness">
+            <image url="/assets/images/pages/alcohol/guiness/guiness.png"></image>
+            <information>
+                <name line1="" line2="Guinness"></name>
+                <units>2.3</units>
+                <fat>0</fat>
+                <calories>215</calories>
+                <carbs>18</carbs>
+                <protein>2</protein>
+                <sugar>0</sugar>
+            </information>
+        </drink>
+        <drink name="Gin &amp; Tonic">
+            <image url="/assets/images/pages/alcohol/gin-and-tonic/gin-and-tonic.png"></image>
+            <information>
+                <name line1="" line2="Gin &amp; Tonic"></name>
+                <units>1</units>
+                <fat>0</fat>
+                <calories>89</calories>
+                <carbs>0</carbs>
+                <protein>0</protein>
+                <sugar>12</sugar>
+            </information>
+        </drink>
+        <drink name="Jagermeister">
+            <image url="/assets/images/pages/alcohol/jagermeister/jagermeister.png"></image>
+            <information>
+                <name line1="" line2="Jagermeister"></name>
+                <units>0.9</units>
+                <fat>0</fat>
+                <calories>63</calories>
+                <carbs>0</carbs>
+                <protein>0</protein>
+                <sugar>10</sugar>
+            </information>
+        </drink>
+        <drink name="Lager">
+            <image url="/assets/images/pages/alcohol/lager/lager.png"></image>
+            <information>
+                <name line1="" line2="Lager"></name>
+                <units>3</units>
+                <fat>0</fat>
+                <calories>256</calories>
+                <carbs>17</carbs>
+                <protein>2</protein>
+                <sugar>0</sugar>
+            </information>
+        </drink>
+        <drink name="Red Wine">
+            <image url="/assets/images/pages/alcohol/red-wine/red-wine.png"></image>
+            <information>
+                <name line1="" line2="Red Wine"></name>
+                <units>1.6</units>
+                <fat>0</fat>
+                <calories>94</calories>
+                <carbs>1</carbs>
+                <protein>0</protein>
+                <sugar>0</sugar>
+            </information>
+        </drink>
+        <drink name="Rum &amp; Coke">
+            <image url="/assets/images/pages/alcohol/rum-and-coke/rum-and-coke.png"></image>
+            <information>
+                <name line1="" line2="Rum &amp; Coke"></name>
+                <units>1.4</units>
+                <fat>0</fat>
+                <calories>150</calories>
+                <carbs>20</carbs>
+                <protein>0</protein>
+                <sugar>20</sugar>
+            </information>
+        </drink>
+        <drink name="Vodka &amp; Cranberry">
+            <image url="/assets/images/pages/alcohol/vodka-and-cranberry/vodka-and-cranberry.png"></image>
+            <information>
+                <name line1="Vodka &amp;" line2="Cranberry"></name>
+                <units>1.4</units>
+                <fat>0</fat>
+                <calories>207</calories>
+                <carbs>35</carbs>
+                <protein>0</protein>
+                <sugar>35</sugar>
+            </information>
+        </drink>
+        <drink name="White Wine">
+            <image url="/assets/images/pages/alcohol/white-wine/white-wine.png"></image>
+            <information>
+                <name line1="" line2="White Wine"></name>
+                <units>1.5</units>
+                <fat>0</fat>
+                <calories>111</calories>
+                <carbs>1</carbs>
+                <protein>0</protein>
+                <sugar>1</sugar>
+            </information>
+        </drink>
+        <drink name="WKD Blue">
+            <image url="/assets/images/pages/alcohol/wkd-blue/wkd-blue.png"></image>
+            <information>
+                <name line1="" line2="WKD Blue"></name>
+                <units>1.1</units>
+                <fat>0</fat>
+                <calories>184</calories>
+                <carbs>0</carbs>
+                <protein>0</protein>
+                <sugar>0</sugar>
+            </information>
+        </drink>
+    </drinks>
+</data>

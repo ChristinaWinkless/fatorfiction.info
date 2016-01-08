@@ -1,0 +1,112 @@
+/* 
+    Document   : cake.less
+    Author     : David
+    Description:
+        Define styles for the Cake infographics here.
+        Cake uses the pieChart template.
+*/
+/* =Cake
+-------------------------------------------------------------- */
+/* =Cake Mixins
+-------------------------------------------------------------- */
+/* =Food Information
+-------------------------------------------------------------- */
+/* =Infographics Cake
+-------------------------------------------------------------- */
+div#container section.infographics.cake {
+  margin: -359.5px 0 0 -480px;
+  width: 960px;
+  height: 719px;
+}
+div#container section.infographics.cake canvas#cake {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+div#container section.infographics.cake div.percent.cake.banana-cake {
+  background: url(/assets/images/pages/cake/banana-cake/percent-background.png) no-repeat;
+  background-position: 30px 39px;
+  top: 59px;
+  left: 611px;
+  width: 100px;
+  height: 100px;
+}
+div#container section.infographics.cake div.percent.cake.lemon-drizzle {
+  background: url(/assets/images/pages/cake/lemon-drizzle/percent-background.png) no-repeat;
+  background-position: 0 46px;
+  padding-left: 40px;
+  top: 189px;
+  left: 706px;
+  width: 100px;
+  height: 100px;
+}
+div#container section.infographics.cake div.percent.cake.carrot-cake {
+  background: url(/assets/images/pages/cake/carrot-cake/percent-background.png) no-repeat;
+  background-position: 0 67px;
+  padding-left: 54px;
+  top: 336px;
+  left: 741px;
+  width: 100px;
+  height: 100px;
+}
+div#container section.infographics.cake div.percent.cake.christmas-fruit-cake {
+  background: url(/assets/images/pages/cake/christmas-fruit-cake/percent-background.png) no-repeat;
+  background-position: 18px 0;
+  padding-top: 11px;
+  top: 518px;
+  left: 660px;
+  width: 100px;
+  height: 100px;
+}
+div#container section.infographics.cake div.percent.cake.chocolate-fudge-cake {
+  background: url(/assets/images/pages/cake/chocolate-fudge-cake/percent-background.png) no-repeat;
+  background-position: 41px 0;
+  padding-top: 8px;
+  top: 599px;
+  left: 477px;
+  width: 100px;
+  height: 100px;
+}
+div#container section.infographics.cake div.percent.cake.victoria-sponge {
+  background: url(/assets/images/pages/cake/victoria-sponge/percent-background.png) no-repeat;
+  background-position: 37px 0;
+  padding-top: 6px;
+  top: 574px;
+  left: 299px;
+  width: 100px;
+  height: 100px;
+}
+div#container section.infographics.cake div.percent.cake.marble-cake {
+  background: url(/assets/images/pages/cake/marble-cake/percent-background.png) no-repeat;
+  background-position: 11px 0;
+  padding-top: 29px;
+  top: 467px;
+  left: 190px;
+  width: 100px;
+  height: 100px;
+}
+div#container section.infographics.cake div.percent.cake.battenberg {
+  background: url(/assets/images/pages/cake/battenberg/percent-background.png) no-repeat;
+  background-position: 11px 69px;
+  top: 234px;
+  left: 161px;
+  width: 100px;
+  height: 200px;
+}
+div#container section.infographics.cake div.percent.cake.cheesecake {
+  background: url(/assets/images/pages/cake/cheesecake/percent-background.png) no-repeat;
+  background-position: 41px 40px;
+  top: 103px;
+  left: 235px;
+  width: 100px;
+  height: 100px;
+}
+div#container section.infographics.cake div.percent.cake.coffee-cake {
+  background: url(/assets/images/pages/cake/coffee-cake/percent-background.png) no-repeat;
+  background-position: 37px 40px;
+  top: 32px;
+  left: 411px;
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+    <about>
+        <images>
+            <image url="/assets/images/pages/about/backgrounds/mini-cheddars-background.png"></image>
+            <image url="/assets/images/pages/about/backgrounds/fruit-pastels-background.png"></image>
+            <image url="/assets/images/pages/about/backgrounds/flying-saucers-background.png"></image>
+            <image url="/assets/images/pages/about/backgrounds/guiness-background.png"></image>
+        </images>
+    </about>
+</data>

@@ -1,0 +1,28 @@
+/* 
+    Document   : sweets.less
+    Author     : David
+    Description:
+        Define styles for the Sweets infographics here.
+*/
+/* =Sweets
+-------------------------------------------------------------- */
+/* =Sweets Mixins
+-------------------------------------------------------------- */
+/* =Food Information
+-------------------------------------------------------------- */
+div#container div.food-information.sweets hr {
+  background-position: 0 -15px;
+}
+/* =Infographics Sweets
+-------------------------------------------------------------- */
+div#container section.infographics.sweets {
+  margin: -156px 0 0 -352px;
+  width: 704px;
+  height: 312px;
+}
+div#container section.infographics.sweets canvas#canvas-infographics {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}

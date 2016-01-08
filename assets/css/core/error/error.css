@@ -1,0 +1,45 @@
+/* 
+    Document   : errors.less
+    Author     : David
+    Description:
+        Define global styles for the error pages here.
+*/
+/* =Include Error pages
+-------------------------------------------------------------- */
+/* 
+    Document   : 404.less
+    Author     : David
+    Description:
+        Define styles for the 404 page here.
+*/
+/* =404
+-------------------------------------------------------------- */
+/* =404 Mixins
+-------------------------------------------------------------- */
+/* =404 Error message
+-------------------------------------------------------------- */
+div#container section.infographics.error.fourofour ul.anna-christina-david {
+  margin-top: 105px;
+}
+/* =Errors
+-------------------------------------------------------------- */
+/* =Error Mixins
+-------------------------------------------------------------- */
+/* =Error message
+-------------------------------------------------------------- */
+div#container section.infographics.error {
+  cursor: default;
+  margin: -359.5px 0 0 -480px;
+  text-align: center;
+  width: 960px;
+  height: 719px;
+}
+div#container section.infographics.error div.introduction {
+  color: #000;
+}
+div#container section.infographics.error div.introduction h3.first {
+  margin-top: 33px;
+}
+div#container section.infographics.error ul.anna-christina-david a {
+  background-image: url(/assets/images/global/anna-christina-david-logo-large-dark-spritesheet.png);
+}

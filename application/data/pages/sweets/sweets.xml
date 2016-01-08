@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+    <graph image="/assets/images/pages/sweets/all/graph.png"></graph>
+    <sweets>
+        <sweet name="Milk Bottles" animated="false">
+            <image spritesheet="/assets/images/pages/sweets/milk-bottles/spritesheet.png" steps="0"></image>
+            <information>
+                <name line1="Milk" line2="Bottles"></name>
+                <sugar>57</sugar>
+                <fat>1.5</fat>
+                <calories>355</calories>
+                <carbs>78.9</carbs>
+            </information>
+        </sweet>
+        <sweet name="Fruit Gums" animated="true">
+            <image spritesheet="/assets/images/pages/sweets/fruit-gums/spritesheet.png" steps="5"></image>
+            <information>
+                <name line1="Fruit" line2="Gums"></name>
+                <sugar>45</sugar>
+                <fat>0.2</fat>
+                <calories>331</calories>
+                <carbs>78.2</carbs>
+            </information>
+        </sweet>
+        <sweet name="Wine Gums" animated="true">
+            <image spritesheet="/assets/images/pages/sweets/wine-gums/spritesheet.png" steps="5"></image>
+            <information>
+                <name line1="Wine" line2="Gums"></name>
+                <sugar>57</sugar>
+                <fat>0.2</fat>
+                <calories>325</calories>
+                <carbs>75.4</carbs>
+            </information>
+        </sweet>
+        <sweet name="Tooty Frooties" animated="true">
+            <image spritesheet="/assets/images/pages/sweets/tooty-frooties/spritesheet.png" steps="5"></image>
+            <information>
+                <name line1="Tooty" line2="Frooties"></name>
+                <sugar>33</sugar>
+                <fat>4</fat>
+                <calories>400</calories>
+                <carbs>41</carbs>
+            </information>
+        </sweet>
+        <sweet name="Flying Saucers" animated="true">
+            <image spritesheet="/assets/images/pages/sweets/flying-saucers/spritesheet.png" steps="3"></image>
+            <information>
+                <name line1="Flying" line2="Saucers"></name>
+                <sugar>58.9</sugar>
+                <fat>0.3</fat>
+                <calories>336</calories>
+                <carbs>86.9</carbs>
+            </information>
+        </sweet>
+        <sweet name="Love Hearts" animated="true">
+            <image spritesheet="/assets/images/pages/sweets/love-hearts/spritesheet.png" steps="3"></image>
+            <information>
+                <name line1="Love" line2="Hearts"></name>
+                <sugar>85</sugar>
+                <fat>3.2</fat>
+                <calories>391</calories>
+                <carbs>87</carbs>
+            </information>
+        </sweet>
+        <sweet name="Shrimps" animated="false">
+            <image spritesheet="/assets/images/pages/sweets/shrimps/spritesheet.png" steps="0"></image>
+            <information>
+                <name line1="" line2="Shrimps"></name>
+                <sugar>90</sugar>
+                <fat>0.3</fat>
+                <calories>380</calories>
+                <carbs>91</carbs>
+            </information>
+        </sweet>
+        <sweet name="Haribo Starmix" animated="true">
+            <image spritesheet="/assets/images/pages/sweets/haribo-starmix/spritesheet.png" steps="5"></image>
+            <information>
+                <name line1="Haribo" line2="Starmix"></name>
+                <sugar>63.5</sugar>
+                <fat>0.2</fat>
+                <calories>340</calories>
+                <carbs>78.3</carbs>
+            </information>
+        </sweet>
+        <sweet name="Liquorice Allsorts" animated="true">
+            <image spritesheet="/assets/images/pages/sweets/liquorice-allsorts/spritesheet.png" steps="7"></image>
+            <information>
+                <name line1="Liquorice" line2="Allsorts"></name>
+                <sugar>62</sugar>
+                <fat>4.2</fat>
+                <calories>380</calories>
+                <carbs>77.8</carbs>
+            </information>
+        </sweet>
+        <sweet name="Fruit Pastels" animated="true">
+            <image spritesheet="/assets/images/pages/sweets/fruit-pastels/spritesheet.png" steps="5"></image>
+            <information>
+                <name line1="Fruit" line2="Pastels"></name>
+                <sugar>57.1</sugar>
+                <fat>0</fat>
+                <calories>350</calories>
+                <carbs>83.4</carbs>
+            </information>
+        </sweet>
+        <sweet name="Jelly Babies" animated="true">
+            <image spritesheet="/assets/images/pages/sweets/jelly-babies/spritesheet.png" steps="5"></image>
+            <information>
+                <name line1="Jelly" line2="Babies"></name>
+                <sugar>75</sugar>
+                <fat>0</fat>
+                <calories>335</calories>
+                <carbs>79.7</carbs>
+            </information>
+        </sweet>
+    </sweets>
+</data>

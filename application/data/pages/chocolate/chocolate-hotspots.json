@@ -1,0 +1,62 @@
+{
+  "boost":{
+    "x": 44,
+    "y": 28,
+    "width": 48,
+    "height": 164
+  },
+  "kit-kat-chunky":{
+    "x": 113,
+    "y": 74,
+    "width": 48,
+    "height": 118
+  },
+  "toffee-crisp":{
+    "x": 182,
+    "y": 85,
+    "width": 51,
+    "height": 108
+  },
+  "twix":{
+    "x": 257,
+    "y": 92,
+    "width": 69,
+    "height": 100
+  },
+  "lion-bar":{
+    "x": 350,
+    "y": 97,
+    "width": 53,
+    "height": 96
+  },
+  "bourneville":{
+    "x": 424,
+    "y": 99,
+    "width": 52,
+    "height": 94
+  },
+  "crunchie":{
+    "x": 494,
+    "y": 128,
+    "width": 44,
+    "height": 66
+  },
+  "flake":{
+    "x": 557,
+    "y": 119,
+    "width": 31,
+    "height": 76
+  },
+  "curly-wurly":{
+    "x": 602,
+    "y": 154,
+    "width": 48,
+    "height": 39
+  },
+  "fudge":{
+    "x": 667,
+    "y": 160,
+    "width": 31,
+    "height": 33
+  }
+}

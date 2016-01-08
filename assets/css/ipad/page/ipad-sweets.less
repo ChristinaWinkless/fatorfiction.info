@@ -1,0 +1,121 @@
+/* 
+    Document   : ipad-sweets.less
+    Author     : David
+    Description:
+        Define styles for the iPad Sweets infographics here.
+*/
+
+/* =Sweets
+-------------------------------------------------------------- */
+
+/* =Sweets Mixins
+-------------------------------------------------------------- */
+
+/* =Food Information
+-------------------------------------------------------------- */
+div#container{
+
+    div.food-information.sweets{
+
+        hr{
+
+        }
+
+        div{
+
+        }
+    }
+}
+
+/* =Infographics Sweets
+-------------------------------------------------------------- */
+div#container{
+
+    section.infographics.sweets{
+
+
+        // Sweet spritesheets
+        div.sweet{
+
+            background-size: 100%;
+        }
+
+        // Sweet name
+        div.sweet-name{
+
+        }
+    }
+}
+
+@media
+(orientation : portrait) {
+    div#container{
+
+        section.infographics.sweets{
+
+            @width: 480px;
+            @height: 234px;
+
+            margin: -@height/2px 0 0 -@width/2px;
+            width: @width;
+            height: @height;
+
+
+            // Sweet spritesheets
+            div.sweet{
+
+
+            }
+
+            // Sweet name
+            div.sweet-name{
+
+                top: 220px;
+
+                &.milk-bottles{
+                    left: 16px;
+                }
+
+                &.fruit-gums{
+                    left: 56px;
+                }
+
+                &.wine-gums{
+                    left: 97px;
+                }
+
+                &.tooty-frooties{
+                    left: 126px;
+                }
+
+                &.flying-saucers{
+                    left: 164px;
+                }
+
+                &.love-hearts{
+                    left: 217px;
+                }
+
+                &.shrimps{
+                    left: 257px;
+                }
+
+                &.haribo-starmix{
+                    left: 281px;
+                }
+
+                &.liquorice-allsorts{
+                    left: 312px;
+                }
+
+                &.fruit-pastels{
+                    left: 364px;
+                }
+
+                &.jelly-babies{
+                   left: 404px;
+                }
+            }
+        }
+    }
+}

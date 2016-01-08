@@ -1,0 +1,134 @@
+/* 
+    Document   : cake.less
+    Author     : David
+    Description:
+        Define styles for the Cake infographics here.
+        Cake uses the pieChart template.
+*/
+
+/* =Cake
+-------------------------------------------------------------- */
+
+/* =Cake Mixins
+-------------------------------------------------------------- */
+
+/* =Food Information
+-------------------------------------------------------------- */
+div#container{
+
+    div.food-information.cake{
+
+        hr{
+
+            background-image: url(/assets/images/pages/cake/all/hr.png);
+        }
+    }
+}
+
+/* =Infographics Cake
+-------------------------------------------------------------- */
+div#container{
+
+    section.infographics.pie-chart.cake{
+
+        // Percentages
+        div.percent.cake{
+        
+            &.banana-cake{
+
+                background: url(/assets/images/pages/cake/banana-cake/percent-background.png) no-repeat;
+                background-position: 30px 39px;
+                top: 59px;
+                left: 611px;
+                .mix-percent-size();
+            }
+
+            &.lemon-drizzle{
+
+                background: url(/assets/images/pages/cake/lemon-drizzle/percent-background.png) no-repeat;
+                background-position: 0 46px;
+                padding-left: 40px;
+                top: 189px;
+                left: 706px;
+                .mix-percent-size();
+            }
+
+            &.carrot-cake{
+
+                background: url(/assets/images/pages/cake/carrot-cake/percent-background.png) no-repeat;
+                background-position: 0 67px;
+                padding-left: 54px;
+                top: 336px;
+                left: 741px;
+                .mix-percent-size();
+            }
+
+            &.christmas-fruit-cake{
+
+                background: url(/assets/images/pages/cake/christmas-fruit-cake/percent-background.png) no-repeat;
+                background-position: 18px 0;
+                padding-top: 11px;
+                top: 518px;
+                left: 660px;
+                .mix-percent-size();
+            }
+
+            &.chocolate-fudge-cake{
+
+                background: url(/assets/images/pages/cake/chocolate-fudge-cake/percent-background.png) no-repeat;
+                background-position: 41px 0;
+                padding-top: 8px;
+                top: 599px;
+                left: 477px;
+                .mix-percent-size();
+            }
+
+            &.victoria-sponge{
+
+                background: url(/assets/images/pages/cake/victoria-sponge/percent-background.png) no-repeat;
+                background-position: 37px 0;
+                padding-top: 6px;
+                top: 574px;
+                left: 299px;
+                .mix-percent-size();
+            }
+
+            &.marble-cake{
+
+                background: url(/assets/images/pages/cake/marble-cake/percent-background.png) no-repeat;
+                background-position: 11px 0;
+                padding-top: 29px;
+                top: 467px;
+                left: 190px;
+                .mix-percent-size();
+            }
+
+            &.battenberg{
+
+                background: url(/assets/images/pages/cake/battenberg/percent-background.png) no-repeat;
+                background-position: 11px 69px;
+                top: 234px;
+                left: 161px;
+                .mix-percent-size(100px, 200px);
+            }
+
+            &.cheesecake{
+
+                background: url(/assets/images/pages/cake/cheesecake/percent-background.png) no-repeat;
+                background-position: 41px 40px;
+                top: 103px;
+                left: 235px;
+                .mix-percent-size();
+            }
+
+            &.coffee-cake{
+                
+                background: url(/assets/images/pages/cake/coffee-cake/percent-background.png) no-repeat;
+                background-position: 37px 40px;
+                top: 32px;
+                left: 411px;
+                .mix-percent-size();
+            }
+        }
+    }
+}

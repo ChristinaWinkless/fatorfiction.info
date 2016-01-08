@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+    <navigation image="/assets/images/pages/crisps/all/navigation.png"></navigation>
+    <crisps>
+        <packet name="French Fries">
+            <images rollover="/assets/images/pages/crisps/french-fries/rollover.png" large="/assets/images/pages/crisps/french-fries/french-fries.png" width="120" height="135"></images>
+            <information>
+                <name line1="French" line2="Fries"></name>
+                <fat>3</fat>
+                <calories>84</calories>
+                <carbs>13</carbs>
+                <protein>1</protein>
+            </information>
+        </packet>
+        <packet name="Skips">
+            <images rollover="/assets/images/pages/crisps/skips/rollover.png" large="/assets/images/pages/crisps/skips/skips.png" width="69" height="59"></images>
+            <information>
+                <name line1="" line2="Skips"></name>
+                <fat>5</fat>
+                <calories>82</calories>
+                <carbs>9</carbs>
+                <protein>1</protein>
+            </information>
+        </packet>
+        <packet name="Quavers">
+            <images rollover="/assets/images/pages/crisps/quavers/rollover.png" large="/assets/images/pages/crisps/quavers/quavers.png" width="60" height="66"></images>
+            <information>
+                <name line1="" line2="Quavers"></name>
+                <fat>5</fat>
+                <calories>88</calories>
+                <carbs>13</carbs>
+                <protein>1</protein>
+            </information>
+        </packet>
+        <packet name="Wotsits">
+            <images rollover="/assets/images/pages/crisps/wotsits/rollover.png" large="/assets/images/pages/crisps/wotsits/wotsits.png" width="72" height="82"></images>
+            <information>
+                <name line1="" line2="Wotsits"></name>
+                <fat>6</fat>
+                <calories>95</calories>
+                <carbs>10</carbs>
+                <protein>1</protein>
+            </information>
+        </packet>
+        <packet name="Mini Cheddars">
+            <images rollover="/assets/images/pages/crisps/mini-cheddars/rollover.png" large="/assets/images/pages/crisps/mini-cheddars/mini-cheddars.png" width="81" height="68"></images>
+            <information>
+                <name line1="Mini" line2="Cheddars"></name>
+                <fat>8</fat>
+                <calories>129</calories>
+                <carbs>13</carbs>
+                <protein>3</protein>
+            </information>
+        </packet>
+        <packet name="Monster Munch">
+            <images rollover="/assets/images/pages/crisps/monster-munch/rollover.png" large="/assets/images/pages/crisps/monster-munch/monster-munch.png" width="92" height="69"></images>
+            <information>
+                <name line1="Monster" line2="Munch"></name>
+                <fat>10</fat>
+                <calories>196</calories>
+                <carbs>24</carbs>
+                <protein>2</protein>
+            </information>
+        </packet>
+        <packet name="Sensations">
+            <images rollover="/assets/images/pages/crisps/sensations/rollover.png" large="/assets/images/pages/crisps/sensations/sensations.png" width="154" height="147"></images>
+            <information>
+                <name line1="" line2="Sensations"></name>
+                <fat>10</fat>
+                <calories>202</calories>
+                <carbs>23</carbs>
+                <protein>2</protein>
+            </information>
+        </packet>
+        <packet name="Doritos">
+            <images rollover="/assets/images/pages/crisps/doritos/rollover.png" large="/assets/images/pages/crisps/doritos/doritos.png" width="102" height="106"></images>
+            <information>
+                <name line1="" line2="Doritos"></name>
+                <fat>11</fat>
+                <calories>202</calories>
+                <carbs>23</carbs>
+                <protein>3</protein>
+            </information>
+        </packet>
+        <packet name="Walkers">
+            <images rollover="/assets/images/pages/crisps/walkers/rollover.png" large="/assets/images/pages/crisps/walkers/walkers.png" width="140" height="145"></images>
+            <information>
+                <name line1="" line2="Walkers"></name>
+                <fat>12</fat>
+                <calories>185</calories>
+                <carbs>17</carbs>
+                <protein>2</protein>
+            </information>
+        </packet>
+        <packet name="Pringles">
+            <images rollover="/assets/images/pages/crisps/pringles/rollover.png" large="/assets/images/pages/crisps/pringles/pringles.png" width="146" height="144"></images>
+            <information>
+                <name line1="" line2="Pringles"></name>
+                <fat>54</fat>
+                <calories>900</calories>
+                <carbs>90</carbs>
+                <protein>6</protein>
+            </information>
+        </packet>
+    </crisps>
+</data>

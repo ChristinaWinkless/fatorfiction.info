@@ -1,0 +1,165 @@
+/* 
+    Document   : crisps.less
+    Author     : David
+    Description:
+        Define styles for the Crisps infographics here.
+*/
+
+/* =Crisps
+-------------------------------------------------------------- */
+
+/* =Crisps Mixins
+-------------------------------------------------------------- */
+
+/* =Food Information
+-------------------------------------------------------------- */
+div#container{
+
+    div.food-information.crisps{
+
+        hr{
+
+            background-image: url(/assets/images/pages/crisps/all/hr.png);
+        }
+
+        div{
+
+        }
+    }
+}
+
+/* =Infographics Crisps
+-------------------------------------------------------------- */
+div#container{
+
+    section.infographics.crisps{
+
+        @width: 828px;
+        @height: 448px;
+
+        background-position: top center;
+        background-repeat: no-repeat;
+        margin: -@height/2px 0 0 -@width/2px;
+        width: @width;
+        height: @height;
+
+        // Crisp background positions
+        &.french-fries{
+            background-position: center 90px;
+        }
+
+        &.skips{
+            background-position: center 80px;
+        }
+
+        &.quavers{
+            background-position: center 40px;
+        }
+
+        &.wotsits{
+            background-position: center 50px;
+        }
+
+        &.mini-cheddars{
+            background-position: center 42px;
+        }
+
+        &.monster-munch{
+            background-position: center 60px;
+        }
+
+        &.sensations{
+            background-position: center 70px;
+        }
+
+        &.doritos{
+            background-position: center 50px;
+        }
+
+        &.walkers{
+            background-position: center 40px;
+        }
+
+        &.pringles{
+            background-position: center 35px;
+        }
+
+        // Canvas
+        canvas#canvas-infographics{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+
+        // Navigation
+        nav.crisps{
+
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: @width;
+            height: 119px;
+            z-index: 8;
+        }
+
+        // Rollover images
+        div.rollover-image{
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 9;
+
+            &.french-fries{
+                top: 322px;
+                left: -21px;
+            }
+
+            &.skips{
+                top: 362px;
+                left: 69px;
+            }
+
+            &.quavers{
+                top: 358px;
+                left: 139px;
+            }
+
+            &.wotsits{
+                top: 351px;
+                left: 189px;
+            }
+
+            &.mini-cheddars{
+                top: 358px;
+                left: 254px;
+            }
+
+            &.monster-munch{
+                top: 356px;
+                left: 332px;
+            }
+
+            &.sensations{
+                top: 320px;
+                left: 407px;
+            }
+
+            &.doritos{
+                top: 337px;
+                left: 533px;
+            }
+
+            &.walkers{
+                top: 317px;
+                left: 607px;
+            }
+
+            &.pringles{
+                top: 317px;
+                left: 699px;
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+/* 
+    Document   : errors.less
+    Author     : David
+    Description:
+        Define global styles for the error pages here.
+*/
+
+/* =Include Error pages
+-------------------------------------------------------------- */
+@import "404.less";
+@import "unsupported.less";
+
+
+/* =Errors
+-------------------------------------------------------------- */
+
+
+/* =Error Mixins
+-------------------------------------------------------------- */
+
+
+/* =Error message
+-------------------------------------------------------------- */
+div#container{
+
+    section.infographics.error{
+
+        @width: 960px;
+        @height: 719px;
+
+        cursor: default;
+        margin: -@height/2px 0 0 -@width/2px;
+        text-align: center;
+        width: @width;
+        height: @height;
+
+        // Introduction
+        div.introduction{
+
+            color: #000;
+
+            h3.first{
+                margin-top: 33px;
+            }
+        }
+
+        // Anna, Christina, David logo
+        ul.anna-christina-david{
+
+            a{
+                background-image: url(/assets/images/global/anna-christina-david-logo-large-dark-spritesheet.png);
+            }
+        }
+    }
+}

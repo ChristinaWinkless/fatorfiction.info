@@ -1,0 +1,53 @@
+{
+  "lager":{
+    "x": 69,
+    "y": 72,
+    "radius": 66
+  },
+  "cider":{
+    "x": 229,
+    "y": 72,
+    "radius": 70
+  },
+  "guinness":{
+    "x": 389,
+    "y": 73,
+    "radius": 70
+  },
+  "vodka-and-cranberry":{
+    "x": 550,
+    "y": 72,
+    "radius": 59
+  },
+  "white-wine":{
+    "x": 711,
+    "y": 72,
+    "radius": 68
+  },
+  "jagermeister":
+  {
+    "x": 70,
+    "y": 233,
+    "radius": 30
+  },
+  "gin-and-tonic":{
+    "x": 229,
+    "y": 234,
+    "radius": 55
+  },
+  "red-wine":{
+    "x": 390,
+    "y": 234,
+    "radius": 58
+  },
+  "rum-and-coke":{
+    "x": 548,
+    "y": 234,
+    "radius": 68
+  },
+  "wkd-blue":{
+    "x": 709,
+    "y": 234,
+    "radius": 57
+  }
+}

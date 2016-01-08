@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+    <chart type="cake" image="/assets/images/pages/cake/all/cake.png" radius="257" slice="true"></chart>
+    <segments>
+        <segment name="Banana Cake">
+            <information>
+                <name line1="Banana" line2="Cake"></name>
+                <slice url="/assets/images/pages/cake/banana-cake/slice.jpg"></slice>
+                <fat>15.1</fat>
+                <calories>331</calories>
+                <carbs>45.6</carbs>
+                <protein>2.9</protein>
+                <percent>9</percent>
+            </information>
+        </segment>
+        <segment name="Lemon Drizzle">
+            <information>
+                <name line1="Lemon" line2="Drizzle"></name>
+                <slice url="/assets/images/pages/cake/lemon-drizzle/slice.jpg"></slice>
+                <fat>13.9</fat>
+                <calories>376</calories>
+                <carbs>58.5</carbs>
+                <protein>4.3</protein>
+                <percent>8</percent>
+            </information>
+        </segment>
+        <segment name="Carrot Cake">
+            <information>
+                <name line1="Carrot" line2="Cake"></name>
+                <slice url="/assets/images/pages/cake/carrot-cake/slice.jpg"></slice>
+                <fat>21</fat>
+                <calories>407</calories>
+                <carbs>47.6</carbs>
+                <protein>4.9</protein>
+                <percent>12</percent>
+            </information>
+        </segment>
+        <segment name="Christmas Fruit Cake">
+            <information>
+                <name line1="Christmas" line2="Fruit Cake"></name>
+                <slice url="/assets/images/pages/cake/christmas-fruit-cake/slice.jpg"></slice>
+                <fat>11.5</fat>
+                <calories>366</calories>
+                <carbs>59.5</carbs>
+                <protein>4.8</protein>
+                <percent>6</percent>
+            </information>
+        </segment>
+        <segment name="Chocolate Fudge Cake">
+            <information>
+                <name line1="Chocolate" line2="Fudge Cake"></name>
+                <slice url="/assets/images/pages/cake/chocolate-fudge-cake/slice.jpg"></slice>
+                <fat>21.7</fat>
+                <calories>423</calories>
+                <carbs>52.5</carbs>
+                <protein>4.4</protein>
+                <percent>12</percent>
+            </information>
+        </segment>
+        <segment name="Victoria Sponge">
+            <information>
+                <name line1="Victoria" line2="Sponge"></name>
+                <slice url="/assets/images/pages/cake/victoria-sponge/slice.jpg"></slice>
+                <fat>19.3</fat>
+                <calories>401</calories>
+                <carbs>51.8</carbs>
+                <protein>5</protein>
+                <percent>11</percent>
+            </information>
+        </segment>
+        <segment name="Marble Cake">
+            <information>
+                <name line1="Marble" line2="Cake"></name>
+                <slice url="/assets/images/pages/cake/marble-cake/slice.jpg"></slice>
+                <fat>18.8</fat>
+                <calories>410</calories>
+                <carbs>55</carbs>
+                <protein>4.6</protein>
+                <percent>11</percent>
+            </information>
+        </segment>
+        <segment name="Battenberg">
+            <information>
+                <name line1="" line2="Battenberg"></name>
+                <slice url="/assets/images/pages/cake/battenberg/slice.jpg"></slice>
+                <fat>12.5</fat>
+                <calories>428</calories>
+                <carbs>73</carbs>
+                <protein>6.1</protein>
+                <percent>7</percent>
+            </information>
+        </segment>
+        <segment name="Cheesecake">
+            <information>
+                <name line1="" line2="Cheesecake"></name>
+                <slice url="/assets/images/pages/cake/cheesecake/slice.jpg"></slice>
+                <fat>17.1</fat>
+                <calories>295</calories>
+                <carbs>31.2</carbs>
+                <protein>4.1</protein>
+                <percent>10</percent>
+            </information>
+        </segment>
+        <segment name="Coffee Cake">
+            <information>
+                <name line1="Coffee" line2="Cake"></name>
+                <slice url="/assets/images/pages/cake/coffee-cake/slice.jpg"></slice>
+                <fat>24</fat>
+                <calories>430</calories>
+                <carbs>49.1</carbs>
+                <protein>4.3</protein>
+                <percent>14</percent>
+            </information>
+        </segment>
+    </segments>
+</data>

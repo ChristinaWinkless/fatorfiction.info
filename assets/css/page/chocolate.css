@@ -1,0 +1,22 @@
+/* 
+    Document   : chocolate.less
+    Author     : David
+    Description:
+        Define styles for the Chocolate infographics here.
+*/
+/* =Chocolate
+-------------------------------------------------------------- */
+/* =Chocolate Mixins
+-------------------------------------------------------------- */
+/* =Food Information
+-------------------------------------------------------------- */
+div#container div.food-information.chocolate hr {
+  background-position: 0 -6px;
+}
+/* =Infographics Chocolate
+-------------------------------------------------------------- */
+div#container section.infographics.chocolate.view-all {
+  margin: -151.5px 0 0 -390px;
+  width: 780px;
+  height: 303px;
+}

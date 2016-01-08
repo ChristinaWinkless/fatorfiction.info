@@ -1,0 +1,28 @@
+/* 
+    Document   : crisps.less
+    Author     : David
+    Description:
+        Define styles for the Crisps infographics here.
+*/
+/* =Crisps
+-------------------------------------------------------------- */
+/* =Crisps Mixins
+-------------------------------------------------------------- */
+/* =Food Information
+-------------------------------------------------------------- */
+div#container div.food-information.crisps hr {
+  background-position: 0 -12px;
+}
+/* =Infographics Crisps
+-------------------------------------------------------------- */
+div#container section.infographics.crisps {
+  margin: -132px 0 0 -367px;
+  width: 734px;
+  height: 264px;
+}
+div#container section.infographics.crisps canvas#canvas-infographics {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}

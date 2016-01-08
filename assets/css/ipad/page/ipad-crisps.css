@@ -1,0 +1,21 @@
+/* 
+    Document   : crisps.less
+    Author     : David
+    Description:
+        Define styles for the iPad Crisps infographics here.
+*/
+/* =Crisps
+-------------------------------------------------------------- */
+/* =Crisps Mixins
+-------------------------------------------------------------- */
+/* =Food Information
+-------------------------------------------------------------- */
+/* =Infographics Crisps
+-------------------------------------------------------------- */
+@media (orientation: portrait) {
+  div#container section.infographics.crisps {
+    margin: -162.5px 0 0 -300px;
+    width: 600px;
+    height: 325px;
+  }
+}

@@ -1,0 +1,153 @@
+/* 
+    Document   : ios-site.less
+    Author     : David
+    Description:
+        Include ios site stylesheets.
+*/
+/* =Include Reset
+-------------------------------------------------------------- */
+/* =Include Fonts
+-------------------------------------------------------------- */
+/* =Include UI Components
+-------------------------------------------------------------- */
+/* =Include core
+-------------------------------------------------------------- */
+/* =Include Charts
+-------------------------------------------------------------- */
+/* 
+    Document   : ios-pie-chart.less
+    Author     : David
+    Description:
+        Define ios styles for the Pie Chart template here.
+*/
+/* =Pie Chart
+-------------------------------------------------------------- */
+/* =Pie Chart Mixins
+-------------------------------------------------------------- */
+/* =Food Information
+-------------------------------------------------------------- */
+/* =Infographics Cake
+-------------------------------------------------------------- */
+div#container section.infographics.pie-chart {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: -359.5px 0 0 -480px;
+}
+@media (orientation: portrait) {
+  div#container section.infographics.pie-chart {
+    margin: -287.5px 0 0 -384px;
+    width: 768px;
+    height: 575px;
+  }
+}
+/* =Include page
+-------------------------------------------------------------- */
+/* 
+    Document   : ios-cake.less
+    Author     : David
+    Description:
+        Define ios styles for the Cake infographics here.
+        Cake uses the pieChart template.
+*/
+/* =Cake
+-------------------------------------------------------------- */
+/* =Cake Mixins
+-------------------------------------------------------------- */
+/* =Food Information
+-------------------------------------------------------------- */
+/* =Infographics Cake
+-------------------------------------------------------------- */
+@media (orientation: landscape) {
+  div#container section.infographics.pie-chart.cake div.percent.cake.cheesecake {
+    top: 103px !important;
+    left: 235px !important;
+  }
+  div#container section.infographics.pie-chart.cake div.percent.cake.coffee-cake {
+    top: 32px !important;
+    left: 411px !important;
+  }
+}
+@media (orientation: portrait) {
+  div#container section.infographics.pie-chart.cake div.percent.cake.cheesecake {
+    top: 70px !important;
+    left: 178px !important;
+  }
+  div#container section.infographics.pie-chart.cake div.percent.cake.coffee-cake {
+    top: 12px !important;
+    left: 328px !important;
+  }
+}
+/* 
+    Document   : ios-alcohol.less
+    Author     : David
+    Description:
+        Define styles for the ios Alcohol infographics here.
+*/
+/* =Alcohol
+-------------------------------------------------------------- */
+/* =Alcohol Mixins
+-------------------------------------------------------------- */
+/* =Food Information
+-------------------------------------------------------------- */
+/* =Infographics Alcohol
+-------------------------------------------------------------- */
+div#container section.infographics.alcohol.view-all {
+  background-size: 100%;
+}
+div#container section.infographics.alcohol.view-single a.arrow.left:hover {
+  background-position: 0 0;
+}
+div#container section.infographics.alcohol.view-single a.arrow.right:hover {
+  background-position: -40px 0;
+}
+@media (orientation: portrait) {
+  div#container section.infographics.alcohol.view-all {
+    margin: -116.5px 0 0 -300px;
+    width: 600px;
+    height: 233px;
+  }
+}
+/* 
+    Document   : ios-chocolate.less
+    Author     : David
+    Description:
+        Define styles for the ios Chocolate infographics here.
+*/
+/* =Chocolate
+-------------------------------------------------------------- */
+/* =Chocolate Mixins
+-------------------------------------------------------------- */
+/* =Food Information
+-------------------------------------------------------------- */
+/* =Infographics Chocolate
+-------------------------------------------------------------- */
+div#container section.infographics.chocolate {
+  background-size: 100%;
+}
+@media (orientation: portrait) {
+  div#container section.infographics.chocolate {
+    margin: -99px 0 0 -275px;
+    width: 550px;
+    height: 198px;
+  }
+}
+/* =Include mobile
+-------------------------------------------------------------- */
+/* 
+    Document   : ios-mobile.less
+    Author     : David
+    Description:
+        Define styles for the ios mobile page here.
+*/
+/* =Mobile
+-------------------------------------------------------------- */
+/* =Mobile Mixins
+-------------------------------------------------------------- */
+/* =Mobile (portrait and landscape) 
+-------------------------------------------------------------- */
+div#container header.primary h1 a {
+  background: url(/assets/images/global/mobile/fat-or-fiction-logo.jpg) no-repeat;
+  display: block;
+  width: 234px;
+  height: 233px;
+}

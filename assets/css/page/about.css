@@ -1,0 +1,23 @@
+/* 
+    Document   : about.less
+    Author     : David
+    Description:
+        Define styles for the About page here.
+*/
+/* =About
+-------------------------------------------------------------- */
+/* =About Mixins
+-------------------------------------------------------------- */
+/* =About Enter
+-------------------------------------------------------------- */
+div#container section.about.enter {
+  margin: -359.5px 0 0 -480px;
+  width: 960px;
+  height: 719px;
+}
+div#container section.about.enter canvas#canvas-enter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}

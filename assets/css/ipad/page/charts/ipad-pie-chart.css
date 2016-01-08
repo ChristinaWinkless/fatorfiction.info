@@ -1,0 +1,26 @@
+/* 
+    Document   : ios-pie-chart.less
+    Author     : David
+    Description:
+        Define ios styles for the Pie Chart template here.
+*/
+/* =Pie Chart
+-------------------------------------------------------------- */
+/* =Pie Chart Mixins
+-------------------------------------------------------------- */
+/* =Food Information
+-------------------------------------------------------------- */
+/* =Infographics Cake
+-------------------------------------------------------------- */
+div#container section.infographics.pie-chart {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: -359.5px 0 0 -480px;
+}
+@media (orientation: portrait) {
+  div#container section.infographics.pie-chart {
+    margin: -287.5px 0 0 -384px;
+    width: 768px;
+    height: 575px;
+  }
+}

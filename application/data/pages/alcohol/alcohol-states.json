@@ -1,0 +1,92 @@
+{
+  "states":[
+    {
+      "data": {
+        "view": "all",
+        "title": "All"
+      },
+      "title": "All",
+      "url": "?all"
+    },
+    {
+      "data": {
+        "view": "lager",
+        "title": "Lager"
+      },
+      "title": "Lager",
+      "url": "?lager"
+    },
+    {
+      "data": {
+        "view": "cider",
+        "title": "Cider"
+      },
+      "title": "Cider",
+      "url": "?cider"
+    },
+    {
+      "data": {
+        "view": "guinness",
+        "title": "Guinness"
+      },
+      "title": "Guinness",
+      "url": "?guinness"
+    },
+    {
+      "data": {
+        "view": "vodka-and-cranberry",
+        "title": "Vodka and Cranberry"
+      },
+      "title": "Vodka and Cranberry",
+      "url": "?vodka-and-cranberry"
+    },
+    {
+      "data": {
+        "view": "white-wine",
+        "title": "White Wine"
+      },
+      "title": "White Wine",
+      "url": "?white-wine"
+    },
+    {
+      "data": {
+        "view": "jagermeister",
+        "title": "jagermeister"
+      },
+      "title": "Jagermeister",
+      "url": "?jagermeister"
+    },
+    {
+      "data": {
+        "view": "gin-and-tonic",
+        "title": "Gin and Tonic"
+      },
+      "title": "Gin and Tonic",
+      "url": "?gin-and-tonic"
+    },
+    {
+      "data": {
+        "view": "red-wine",
+        "title": "Red Wine"
+      },
+      "title": "Red Wine",
+      "url": "?red-wine"
+    },
+    {
+      "data": {
+        "view": "rum-and-coke",
+        "title": "Rum and Coke"
+      },
+      "title": "Rum and Coke",
+      "url": "?rum-and-coke"
+    },
+    {
+      "data": {
+        "view": "wkd-blue",
+        "title": "WKD Blue"
+      },
+      "title": "WKD Blue",
+      "url": "?wkd-blue"
+    }
+  ]
+}

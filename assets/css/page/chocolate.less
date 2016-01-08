@@ -1,0 +1,107 @@
+/* 
+    Document   : chocolate.less
+    Author     : David
+    Description:
+        Define styles for the Chocolate infographics here.
+*/
+
+/* =Chocolate
+-------------------------------------------------------------- */
+
+/* =Chocolate Mixins
+-------------------------------------------------------------- */
+
+/* =Food Information
+-------------------------------------------------------------- */
+div#container{
+
+    div.food-information.chocolate{
+
+        hr{
+            
+            background-image: url(/assets/images/pages/chocolate/all/hr.png);
+        }
+
+        div{
+
+        }
+    }
+}
+
+/* =Infographics Chocolate
+-------------------------------------------------------------- */
+div#container{
+
+    section.infographics.chocolate{
+
+        @width: 734px;
+        @height: 264px;
+
+        margin: -@height/2px 0 0 -@width/2px;
+        width: @width;
+        height: @height;
+
+        // Canvas
+        canvas#canvas-infographics{
+            position: relative;
+        }
+
+        // Cross sections
+        div.cross-section{
+
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            &.boost{
+                top: 202px;
+                left: 31px;
+            }
+
+            &.kit-kat-chunky{
+                top: 205px;
+                left: 93px;
+            }
+
+            &.toffee-crisp{
+                top: 209px;
+                left: 170px;
+            }
+
+            &.twix{
+                top: 211px;
+                left: 246px;
+            }
+
+            &.lion-bar{
+                top: 198px;
+                left: 331px;
+            }
+
+            &.bourneville{
+                top: 219px;
+                left: 407px;
+            }
+
+            &.crunchie{
+                top: 214px;
+                left: 483px;
+            }
+
+            &.flake{
+                top: 212px;
+                left: 543px;
+            }
+
+            &.curly-wurly{
+                top: 231px;
+                left: 595px;
+            }
+
+            &.fudge{
+                top: 224px;
+                left: 659px;
+            }
+        }
+    }
+}
